@@ -72,5 +72,5 @@ def main():
     print("Бот запущен и готов к работе...")
     app.run_polling(allowed_updates=Update.ALL_TYPES)
 
-if name == "main":
+if __name__ == "__main__":
     main()
